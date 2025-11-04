@@ -1,0 +1,94 @@
+/*CSS Variaveis para cores*/
+
+:root {
+    --text-color: #2c3e50;
+    --background-color: #E3D7CF;
+    --background: linear-gradient(to bottom, #f8cdda, #ffffff);
+}
+
+    /*Dark mode supoort*/
+
+    @media (prefers-color-scheme: dark) {
+        :root{
+        --text-color: #ffffff;
+        --background-color: #1a1a1a;
+        }
+    }
+
+
+/*reset e configurações basicas*/ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    color: var(--text-color);
+    background: var(--background);
+    line-height: 1.6;
+    scroll-behavior: smooth
+
+
+}
+
+main{
+    width: 90%;
+    max-width: 800px;
+}
+article {
+    margin-bottom: 2rem;
+    padding: 2rem;
+    border-radius: 8px;
+    background-color: #fafafa;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.diario-nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0;
+}
+.botao-nav {
+    background-color: #f593a8;
+    color: white;
+    padding: 12px 12px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease
+
+}
+.botao-nav:hover {
+    background-color: #E47189;
+}
+
+.linha-estilizada {
+  border: none;
+  height: 2px;
+  background-color: #b38eee;
+  margin: 20px 0;
+}
+h2 {
+text-align: center;
+}
+
+time {
+    font-style: italic;
+    color: #555;
+    text-align: center;
+}
+.datetime {
+text-align: center;
+}
+strong {
+    text-align: center;
+}
+h1 {
+    font-size: 3.5rem;
+}
