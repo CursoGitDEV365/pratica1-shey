@@ -1,11 +1,289 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Parte 1</title>
-</head>
-<body>
-    Minha primeira página
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meu Diário Pessoal</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Limelight&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <br /><br />
+    <header>
+      <h1> 👩‍💻 Meu Diário de Aulas ❤️</h1>
+      <br /><br />
+    </header>
+    <main>
+      <article>
+        <header>
+          <h2>Diário de Bordo - Primeira Tutoria do Projeto Individual</h2>
+
+          <p>
+            <hr class="linha-estilizada" />
+            <strong>Data: </strong
+            ><time datetime="2025-06-30">30 de junho de 2025</time>
+          </p>
+          <br /><br />
+          
+        </header>
+        <p>
+          Hoje iniciamos, durante a tutoria, a proposta de um novo trabalho
+          individual utilizando HTML e CSS. Vamos desenvolver uma página chamada
+          <strong>“Meu Diário”</strong>, aplicando os conceitos que aprendemos
+          até agora. Essa página deverá conter elementos como
+          <code>&lt;header&gt;</code>, <code>&lt;footer&gt;</code>,
+          <code>&lt;article&gt;</code> e <code>&lt;time&gt;</code>, além de
+          trazer uma
+          <strong>organização clara entre as entradas de cada dia</strong>.
+          Também é sugerida a inclusão de uma <em>simulação de botão</em>,
+          estimulando a criatividade e o uso de recursos aprendidos.
+        </p>
+
+        <p>
+          Durante a atividade, <strong>descobri algo novo e muito útil</strong>:
+          o uso de <strong>variáveis no CSS</strong>, especialmente para definir
+          cores que podem ser reutilizadas ao longo do código. Isso facilita
+          bastante a padronização e manutenção do estilo da página.
+        </p>
+
+        <p>Revisamos e colocamos em prática alguns tópicos importantes como:</p>
+        <ul>
+          <li>
+            Propriedades de <code>display</code> e <code>flex-direction</code>;
+          </li>
+          <li>
+            Importação de
+            <strong>fontes personalizadas via Google Fonts</strong>;
+          </li>
+          <li>Organização semântica do HTML.</li>
+        </ul>
+
+        <p>
+          Para finalizar a tutoria, tivemos um momento de integração com os
+          colegas dos grupos de estudos. Foi uma ótima oportunidade para
+          conhecer pessoas com quem poderei trocar experiências e aprender ainda
+          mais ao longo do curso.
+        </p>
+
+        <p>
+          <strong>Estou animada para as próximas aulas e tutorias</strong>.
+          Quero aproveitar cada oportunidade para expandir meus conhecimentos e
+          me desafiar ainda mais nesse processo de aprendizado.
+        </p>
+        <nav class="diario-nav">
+          <a href="dia3.html" class="botao-nav">Próximo Dia →</a>
+        </nav>
+      </article>
+
+      <article>
+        <h2>Diário de Bordo - Explorando o Terminal</h2>
+        <p>
+          <hr class="linha-estilizada" />
+          <strong>Data: </strong>
+          <time datetime="2025-07-01"> 01 de julho de 2025</time>
+        </p>
+
+        <br /><br />
+
+        
+        <p>
+          Na aula de hoje, iniciamos nossa jornada pelo mundo do
+          <strong>Terminal</strong> — também conhecido como <em>Shell</em> ou
+          <em>CLI</em> (Command Line Interface). Descobrimos que, apesar de
+          parecer intimidador no início, ele pode ser um grande aliado para quem
+          trabalha com tecnologia, oferecendo <strong>rapidez</strong>,
+          <strong>automação</strong> e
+          <strong>controle total do sistema</strong>, inclusive em servidores e
+          ambientes de desenvolvimento.
+        </p>
+
+        <p>
+          Fomos incentivados a instalar o <strong>Git Bash</strong> (no caso de
+          quem usa Windows), já que, a partir de agora, o terminal será uma
+          ferramenta essencial no curso. Aprendemos a localizar e abrir o
+          terminal de acordo com nosso sistema operacional, e começamos a
+          explorar seus principais comandos:
+        </p>
+
+        <ul>
+          <li><code>pwd</code> — mostra o diretório atual onde estamos;</li>
+          <li><code>cd</code> — permite navegar entre pastas;</li>
+          <li><code>ls</code> — lista os arquivos e diretórios;</li>
+          <li><code>mkdir</code> — cria uma nova pasta;</li>
+          <li><code>touch</code> — cria um novo arquivo vazio;</li>
+          <li>
+            <code>cp</code>, <code>mv</code>, <code>rm</code>,
+            <code>rmdir</code> — usados para copiar, mover, renomear ou apagar
+            arquivos e pastas.
+          </li>
+        </ul>
+
+        <p>
+          Um ponto importante foi o uso da opção <code>-r</code> (de
+          <strong>recursivo</strong>) com alguns comandos, como
+          <code>rm -r</code>. Isso permite apagar não só a pasta, mas tudo o que
+          estiver dentro dela, incluindo subpastas e arquivos. Um recurso
+          poderoso, mas que exige atenção!
+        </p>
+
+        <p>
+          Também aprendemos a usar variações do comando <code>ls</code>, como:
+        </p>
+        <ul>
+          <li>
+            <code>ls -a</code> — mostra arquivos ocultos (os que começam com
+            ponto);
+          </li>
+          <li>
+            <code>ls -la</code> — exibe os arquivos com mais detalhes, incluindo
+            permissões, tamanho e data de modificação.
+          </li>
+        </ul>
+
+        <p>
+          Foi nesse momento que aprendi algo muito curioso: quando usamos
+          <code>ls -la</code>, um <strong>d</strong> no início da linha indica
+          que aquele item é um <strong>diretório</strong> (pasta), e não um
+          arquivo comum. Um detalhe técnico que faz toda a diferença na
+          navegação!
+        </p>
+
+        <p>
+          Também entendemos a estrutura do sistema de arquivos como uma
+          <strong>árvore</strong>, com diretórios e arquivos organizados a
+          partir de uma raiz. Aprendemos sobre
+          <strong>caminhos absolutos e relativos</strong>, além de atalhos úteis
+          como <code>.</code> (diretório atual), <code>..</code> (diretório pai)
+          e <code>~</code> (diretório pessoal).
+        </p>
+
+        <p>
+          Para tornar o uso do terminal mais ágil, praticamos alguns
+          <strong>atalhos importantes</strong>:
+        </p>
+        <ul>
+          <li><strong>TAB</strong> — autocompleta nomes automaticamente;</li>
+          <li>
+            <strong>Setas ↑ e ↓</strong> — navegam pelo histórico de comandos;
+          </li>
+          <li>
+            <strong>CTRL + L</strong> ou <code>clear</code> — limpa a tela;
+          </li>
+          <li><strong>CTRL + C</strong> — cancela comandos em execução;</li>
+          <li>
+            <code>history</code> — lista todos os comandos executados até o
+            momento;
+          </li>
+          <li>
+            <strong>CTRL + R</strong> — busca por um comando anterior digitando
+            parte dele. Muito útil para reaproveitar comandos grandes!
+          </li>
+        </ul>
+
+        <p>
+          Foi uma aula cheia de descobertas e prática, onde o terminal deixou de
+          ser um mistério e passou a ser uma ferramenta poderosa no nosso
+          aprendizado. Estou animada para aprofundar ainda mais esse
+          conhecimento e aplicar tudo nos próximos projetos!
+        </p>
+
+        <p>
+          <strong>Dica de consulta:</strong> para reforçar os conceitos
+          aprendidos hoje, explore o site
+          <a href="https://linuxjourney.com/lesson/the-shell" target="_blank"
+            >Linux Journey - The Shell</a
+          >. É um ótimo recurso para praticar e entender melhor o funcionamento
+          do terminal!
+        </p>
+        <nav class="diario-nav">
+          <a href="dia1.html" class="botao-nav">← Dia Anterior</a>
+          <a href="dia3.html" class="botao-nav">Próximo Dia →</a>
+        </nav>
+      </article>
+
+      <article>
+  <h2>Diário de Bordo - Git e GitHub</h2>
+  <hr class="linha-estilizada" />
+  <p><strong>Data: </strong> <time datetime="2025-07-02">02 de julho de 2025</time></p>
+<br /><br />
+  <p>Na aula de hoje, o foco foi compreender o uso do <strong>Git</strong> e do <strong>GitHub</strong> no desenvolvimento de projetos. Começamos entendendo a <strong>importância do controle de versão</strong>, que permite manter um histórico de mudanças, trabalhar em equipe, experimentar sem medo e garantir um backup seguro do projeto.</p>
+
+  <p>Foi esclarecida a diferença entre Git e GitHub:</p>
+  <ul>
+    <li><strong>Git</strong> é uma ferramenta instalada localmente no computador, responsável por rastrear alterações nos arquivos.</li>
+    <li><strong>GitHub</strong> é uma plataforma online onde os repositórios Git podem ser armazenados, compartilhados e colaborados com outras pessoas – como um “Google Drive para código”.</li>
+  </ul>
+
+  <p>Também foram mencionadas outras plataformas de repositório, como o <strong>GitLab</strong> e o <strong>Bitbucket</strong>.</p>
+
+  <p>Aprendemos sobre o <strong>fluxo de trabalho com Git</strong>, dividido em três áreas principais:</p>
+  <ul>
+    <li><strong>Workspace</strong>: onde os arquivos são criados e editados;</li>
+    <li><strong>Staging Area</strong>: onde selecionamos o que será incluído no próximo commit;</li>
+    <li><strong>Repository</strong>: onde os commits são armazenados, formando o histórico oficial do projeto.</li>
+  </ul>
+
+  <p>Durante a aula, foram explorados os <strong>comandos fundamentais no terminal</strong>:</p>
+  <pre><code>
+git init             # Inicia um repositório Git local
+git status           # Mostra o estado atual dos arquivos
+git add              # Move arquivos para a staging area
+git commit           # Salva uma nova versão (commit)
+git log              # Exibe o histórico de commits
+git log --oneline    # Exibe o histórico de forma resumida
+git config --global user.name "Nome"  # Configura o nome do usuário
+git config --global user.email "email@gmail.com" # Configura o email do usuário 
+git config --list          # Lista as configurações do Git
+eval $(ssh-agent -s) # Inicia o agente SSH
+ssh-add ~/.ssh/id_rsa # Adiciona a chave SSH ao agente
+git remote add origin <url-do-repositorio> # Conecta o repositório local ao remoto
+git push -u origin main # Envia as alterações para o repositório remoto 
+git pull origin main # Puxa as alterações do repositório remoto
+git branch           # Lista os branches locais
+git checkout -b <nome-do-branch> # Cria e muda para um novo branch
+git merge <nome-do-branch> # Mescla um branch ao branch atual
+
+git clone <url-do-repositorio> # Clona um repositório remoto para o local
+git rm <arquivo> # Remove um arquivo do repositório
+git reset --hard HEAD # Desfaz todas as alterações não commitadas
+git stash # Armazena temporariamente as alterações não commitadas
+git stash pop # Restaura as alterações armazenadas com git stash
+git diff # Mostra as diferenças entre o workspace e a staging area
+git diff --staged # Mostra as diferenças entre a staging area e o último commit
+git tag <nome-da-tag> # Cria uma tag para marcar um ponto específico no histórico
+git tag -a <nome-da-tag> -m "Mensagem da tag" # Cria uma tag anotada com mensagem
+git cherry-pick <hash-do-commit> # Aplica as alterações de um commit específico
+git revert <hash-do-commit> # Cria um novo commit que desfaz as alterações
+git fetch origin # Baixa as alterações do repositório remoto sem mesclar
+git rebase <nome-do-branch> # Reaplica commits de um branch sobre outro
+git reset <hash-do-commit> # Move o HEAD para um commit específico
+git reflog # Mostra o histórico de referências do HEAD
+git bisect # Ajuda a encontrar o commit que introduziu um bug
+
+  </code></pre>
+
+  <p>Também foi discutido o conceito de <strong>branches</strong>, que permite criar versões paralelas do projeto, facilitando o trabalho em novas funcionalidades sem afetar o código principal.</p>
+
+  <p>A aula incluiu ainda práticas visuais no <strong>VSCode</strong>, o uso do <code>.gitignore</code> para excluir arquivos que não devem ser versionados, e a criação de repositórios remotos no GitHub.</p>
+
+  <p>Por fim, vimos como conectar o repositório local ao GitHub usando <strong>chave SSH</strong> e como fazer o primeiro envio (push) do projeto com:</p>
+  <pre><code>
+git push -u origin main
+  </code></pre>
+
+  <p>Foi uma aula repleta de aprendizados práticos e essenciais para quem quer versionar seus projetos de forma profissional. O controle de versão será um dos pilares mais importantes para os próximos passos no desenvolvimento.</p>
+        <nav class="diario-nav">
+          <a href="dia1.html" class="botao-nav">← Dia Anterior</a>
+          <a href="dia3.html" class="botao-nav">Próximo Dia →</a>
+        </nav>
+
+</article>
+    </main>
+    <footer><p>&copy;2025 Meu Diário Pessoal ❤️.</p></footer>
+  </body>
 </html>
